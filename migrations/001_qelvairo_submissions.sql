@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS qelvairo_submissions (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), form_type TEXT NOT NULL, name TEXT NOT NULL, email TEXT NOT NULL, topic TEXT, role TEXT, experience TEXT, portfolio TEXT, message TEXT NOT NULL, created_at TIMESTAMPTZ NOT NULL DEFAULT NOW());
