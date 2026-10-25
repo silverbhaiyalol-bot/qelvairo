@@ -1,0 +1,16 @@
+/* Learning lab */
+.learn-section{border-top:1px solid var(--line-dark);border-bottom:1px solid var(--line-dark)}
+.learn-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:48px}
+.learn-card{position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:flex-start;min-height:310px;padding:28px;border:1px solid #ffffff18;border-radius:12px;background:linear-gradient(145deg,#151822,#0e1017);transition:transform .35s,border-color .35s,box-shadow .35s}
+.learn-card:hover{transform:translateY(-7px);border-color:#c4b3ff66;box-shadow:0 25px 55px #0005,0 0 32px #a991ff0d}
+.learn-card-feature{background:radial-gradient(circle at 90% 5%,#a991ff18,transparent 42%),linear-gradient(145deg,#1c1928,#10121a);border-color:#c4b3ff42}
+.learn-icon{display:grid;place-items:center;width:46px;height:46px;border-radius:13px;background:#29243a;color:#d9ccff;font-size:24px;margin-bottom:35px}
+.learn-card-feature .learn-icon{background:linear-gradient(135deg,#d7f5a2,#c8b7ff);color:#191621}
+.learn-kicker{font-size:9px;letter-spacing:1.5px;color:#bcb1e9;font-weight:700}
+.learn-card h3{font:700 22px/1.2 var(--display);letter-spacing:-.7px;color:#f6f3fc;margin:12px 0}
+.learn-card p{font-size:12px;line-height:1.85;color:#a3a7b5;margin:0 0 25px}
+.learn-link{display:flex;justify-content:space-between;align-items:center;gap:18px;width:100%;margin-top:auto;padding-top:15px;border-top:1px solid #ffffff18;color:#e6e0ff;text-decoration:none;font-size:11px;font-weight:700}
+.learn-link span{font-size:18px;transition:transform .2s}
+.learn-link:hover span{transform:translate(3px,-3px)}
+.learn-note{font-size:10px;color:#8f93a4;margin-top:22px}
+@media(max-width:760px){.learn-grid{grid-template-columns:1fr;gap:12px}.learn-card{min-height:unset;padding:24px}.learn-icon{margin-bottom:24px}}
