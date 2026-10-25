@@ -1,0 +1,123 @@
+/* Premium dark polish: Qelvairo */
+:root{--night:#090b10;--panel:#11141c;--panel-2:#171b25;--pearl:#e9e4ff;--violet:#a991ff;--acid:#c7f36b;--muted-dark:#a3a7b5;--line-dark:#ffffff16}
+html{background:var(--night);scroll-behavior:smooth}
+body{background:var(--night)!important;color:#f5f4fb!important}
+.nav{border-color:var(--line-dark)!important}
+.brand,.nav-links a,.text-link{color:#f3f1fb!important}
+.nav-cta{color:#f5f4fb;border-color:#ffffff2b;background:#ffffff06}
+.brand-icon{background:linear-gradient(135deg,#d9f7a3,#c8b7ff)!important;box-shadow:0 0 28px #c8b7ff20}
+.dot{color:var(--violet)!important}
+.nx-hero h1,.section h2,.how h2{color:#f6f4fc}
+.nx-hero h1 .italic,.section h2 .italic,.how h2 .italic{color:var(--pearl)!important;text-shadow:0 0 35px #a991ff24}
+.hero-text,.hero-proof p,.section-head>p,.how-intro,.steps p{color:var(--muted-dark)!important}
+.hero-proof strong{color:#f4f2fb!important}
+.hero-bottom{border-color:var(--line-dark);color:#8e93a5}
+.hero-art:before,.nx-hero .hero-art:before{background:radial-gradient(circle,#a991ff30 0,#c7f36b10 40%,transparent 72%)!important;filter:blur(18px)}
+.nx-hero .art-core{background:radial-gradient(circle at 30% 25%,#f0edff 0,#c8b7ff 38%,#8e78e6 100%)!important;box-shadow:0 0 80px #a991ff2e,0 28px 80px #0008}
+.core-glyph{color:#171321!important}
+.core-caption{color:#393047!important}
+.nx-hero .orbit-one,.nx-hero .orbit-two{border-color:#c8b7ff36!important}
+.float-card{background:#171923dc!important;border-color:#ffffff20!important;box-shadow:0 18px 50px #0005!important}
+.float-card strong{color:#f5f2ff}.float-card small{color:#b5b2c4}
+.mini-icon{background:#302744;color:#d6caff}.green-check{background:#283321;color:var(--acid)}
+.spark{color:#d8ccff!important}
+.ticker{background:linear-gradient(90deg,#c7f36b,#c9b9ff,#c7f36b)!important;color:#17151d}
+.studio-section,.opportunities,.how{background:var(--night)}
+.dark-eyebrow{color:#c4c0d2!important}
+.service-card{background:linear-gradient(145deg,#151822,#101219)!important;border-color:#ffffff15!important;color:#f5f2fc;box-shadow:0 12px 36px #0002;transition:transform .35s cubic-bezier(.2,.8,.2,1),border-color .35s,box-shadow .35s}
+.service-card:hover{transform:translateY(-8px)!important;border-color:#bcaaff65!important;box-shadow:0 22px 55px #0006,0 0 28px #a991ff0b}
+.service-feature{background:linear-gradient(145deg,#20202c,#13151d)!important;border-color:#bdaaff35!important}
+.service-card h3,.job-main h3,.steps h3{color:#f5f2fc}
+.service-card p,.service-number,.service-foot{color:#a3a6b5!important}
+.service-icon{background:#29243a!important;color:#d7caff!important}
+.service-feature .service-icon{background:var(--acid)!important;color:#171a12!important}
+.work-section,.contact-section,.manifesto{background:#0d0f16!important}
+.work-inner h2,.contact-copy h2{color:#f6f4fb}
+.work-inner h2 .italic,.contact-copy h2 .italic{color:var(--pearl)!important}
+.work-inner .section-head>p,.contact-copy>p{color:#a5a7b5!important}
+.project-card{box-shadow:0 15px 50px #0003;transition:transform .4s cubic-bezier(.2,.8,.2,1),box-shadow .4s}
+.project-card:hover{transform:translateY(-7px) rotate(-.25deg);box-shadow:0 28px 65px #0006}
+.concept-note{color:#999daf!important}
+.manifesto-mark{color:#171923!important}
+.filters{border-color:var(--line-dark)!important}
+.searchbox input{color:#f5f2fc!important}
+.filter{color:#b3b2c3!important;border-color:transparent}
+.filter.active{background:#29243a!important;color:#e0d6ff!important;border-color:#a991ff3d}
+.job-card{border-color:var(--line-dark)!important;transition:background .3s,transform .3s,padding .3s}
+.job-card:hover{background:#151822!important;transform:translateX(4px)}
+.job-type{background:#29243a!important;color:#d6caff!important}
+.tags span{border-color:#ffffff1c!important;color:#b8b7c6!important}
+.apply-btn{color:#f5f2fc;border-color:#ffffff35!important}
+.apply-btn:hover{background:var(--acid)!important;color:#111!important;border-color:var(--acid)!important}
+.listing-note,.no-results{color:#999daf!important}
+.steps article,.steps article:first-child{border-color:var(--line-dark)!important}
+.steps article>b,.steps article>span{color:#c6b5ff!important}
+.contact-copy .eyebrow{color:#d5cfff!important}
+.contact-email{color:var(--acid)!important}
+.contact-mini span{border-color:#ffffff24!important;color:#c4c1d0!important}
+.contact-form-wrap{background:linear-gradient(145deg,#171a24,#11131b)!important;color:#f5f2fc;border:1px solid #ffffff18;box-shadow:0 25px 70px #0004}
+.form-heading{border-color:#ffffff18!important;color:#dcd8e9}
+.form-heading span:last-child{color:var(--pearl)!important}
+.contact-form label,.apply-modal label{color:#d6d3e2!important}
+.contact-form input,.contact-form select,.contact-form textarea,.apply-modal input,.apply-modal select,.apply-modal textarea{background:#0c0e14!important;border-color:#ffffff20!important;color:#f6f3fc!important}
+.contact-form input::placeholder,.contact-form textarea::placeholder,.apply-modal input::placeholder,.apply-modal textarea::placeholder{color:#797d8e}
+.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus,.apply-modal input:focus,.apply-modal select:focus,.apply-modal textarea:focus{border-color:#b9a6ff!important;box-shadow:0 0 0 3px #a991ff20!important}
+.contact-form .form-status{color:#c7f36b}
+.privacy-note{color:#9699a9!important}
+.cta-card{background:linear-gradient(120deg,#d9f6a6,#d6caff)!important}
+.cta-card h2{color:#15151d}
+.cta-card h2 .italic{color:#5c468e!important}
+.cta-shape{color:#c1b0f1!important}
+.footer{border-color:var(--line-dark)!important}
+.footer>span{color:#999daf!important}
+.modal-backdrop{background:#05060bd9!important}
+.apply-modal{background:#151822!important;border:1px solid #ffffff1c;color:#f6f3fc;box-shadow:0 30px 100px #0009}
+.apply-modal h2{color:#f6f3fc}
+.apply-modal h2 .italic{color:var(--pearl)!important}
+.modal-intro{color:#a5a7b5!important}
+.modal-close{color:#d4d0e1}
+.button.primary{background:linear-gradient(110deg,#d2f58d,#d3c5ff)!important;color:#15151b!important;box-shadow:0 7px 24px #a991ff12}
+.button.primary:hover{filter:brightness(1.08);box-shadow:0 10px 35px #a991ff25}
+.eyebrow .pulse{background:var(--pearl)!important;box-shadow:0 0 0 4px #c8b7ff20,0 0 18px #c8b7ff85!important}
+.reveal-ready .reveal{opacity:0;transform:translateY(22px);transition:opacity .75s ease,transform .75s cubic-bezier(.2,.7,.2,1)}
+.reveal-ready .reveal.is-visible{opacity:1;transform:translateY(0)}
+.service-card.reveal:nth-child(2){transition-delay:90ms}.service-card.reveal:nth-child(3){transition-delay:180ms}
+.project-card.reveal:nth-child(2){transition-delay:120ms}
+@keyframes pearlPulse{0%,100%{box-shadow:0 0 0 0 #c8b7ff35,0 0 28px #c8b7ff18}50%{box-shadow:0 0 0 12px #c8b7ff00,0 0 48px #c8b7ff30}}
+.nx-hero .art-core{animation:float 6s ease-in-out infinite,pearlPulse 5s ease-in-out infinite}
+@media(max-width:640px){.nav-links{background:#141722!important;border-color:#ffffff20!important}.job-card:hover{transform:none}.contact-form-wrap{padding:23px 18px}}
+@media(prefers-reduced-motion:reduce){.reveal-ready .reveal{opacity:1;transform:none;transition:none}.nx-hero .art-core{animation:none}}
+/* HR consultancy focus: keep the experience centred on advisory services, process, and enquiries. */
+#work,#learn,#ai-workers,#opportunities{display:none!important}
+#difference .difference-card{min-height:190px}
+#difference .difference-icon{color:#c9b8ff}
+#studio .service-card{border-radius:18px}
+#studio .service-card h3{letter-spacing:-.035em}
+#about .about-orb small{letter-spacing:.16em}
+#how .steps article{border-bottom:1px solid #ffffff20}
+#contact .contact-form-wrap{border-radius:22px}
+.nav-cta{white-space:nowrap}
+@media(max-width:640px){#studio .section-head{gap:18px}#studio .service-card{padding:24px 20px}#difference .difference-card{min-height:0}}
+/* Refined consultancy finish */
+:root{scroll-behavior:smooth;scroll-padding-top:88px}
+.hero-copy .hero-text{max-width:560px;line-height:1.8}
+.hero-proof{border-top:1px solid #ffffff20;padding-top:20px;margin-top:28px}
+.hero-proof p span{line-height:1.7}
+.section-head>p,.difference-heading>p{max-width:480px;line-height:1.85}
+#studio .service-grid{gap:18px}
+#studio .service-card{box-shadow:0 14px 40px #080a1010;transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
+#studio .service-card:hover{transform:translateY(-5px);box-shadow:0 22px 55px #080a1018}
+#difference .difference-grid{gap:14px}
+#difference .difference-card{border:1px solid #ffffff16;border-radius:16px;padding:25px;transition:transform .22s ease,border-color .22s ease}
+#difference .difference-card:hover{transform:translateY(-3px);border-color:#c9b8ff55}
+#difference .difference-card h3{letter-spacing:-.025em}
+#about .about-copy{line-height:1.9;max-width:650px}
+#how .steps article{padding:22px 0}
+#how .steps article h3{letter-spacing:-.025em}
+#contact .contact-copy>p{max-width:450px;line-height:1.85}
+#contact .contact-email{overflow-wrap:anywhere}
+#contact .privacy-note{line-height:1.6}
+.footer{gap:20px;flex-wrap:wrap}
+@media(hover:none){#studio .service-card:hover,#difference .difference-card:hover{transform:none}}
+@media(max-width:640px){.hero-proof{margin-top:22px}.footer{align-items:flex-start}.footer>span{max-width:100%}}
+@media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}#studio .service-card,#difference .difference-card{transition:none}}
