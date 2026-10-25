@@ -1,0 +1,31 @@
+/* Brand inspiration strip */
+.brand-pillars{grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+.brand-pillars>span{justify-content:flex-start;white-space:normal;min-height:80px;padding:16px 13px;border:1px solid #eceaf4;border-radius:7px;background:#faf9ff;color:#30313a;font-size:12px;letter-spacing:0;line-height:1.5}
+.brand-pillars>span i{display:grid;place-items:center;flex:0 0 30px;height:30px;border-radius:8px;background:#e9e3ff;color:#7059c9;font-size:17px;font-style:normal}
+@media(max-width:700px){.brand-pillars{grid-template-columns:1fr 1fr;gap:10px}.brand-pillars>span{min-height:66px;font-size:11px;padding:11px 9px}.brand-pillars>span i{flex-basis:26px;height:26px}}
+.brand-wall{padding:68px 0 55px;background:#fff;color:#25252b;border-bottom:1px solid #e9e8ed}
+.brand-wall-heading{text-align:center;margin:0 auto 36px;max-width:760px}
+.brand-wall-heading .eyebrow{justify-content:center}
+.brand-wall-heading h2{font:800 clamp(29px,4vw,43px)/1.15 var(--display);letter-spacing:-1.8px;margin:15px 0 10px}
+.brand-wall-heading h2 span{color:#6c61e9}
+.brand-wall-heading>p{font-size:13px;color:#85858d;margin:0}
+.brand-wall-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:25px 30px;align-items:center}
+.brand-wall-grid>span{min-height:52px;display:flex;align-items:center;justify-content:center;gap:7px;text-align:center;white-space:nowrap;font-weight:700;letter-spacing:-.5px;color:#323744;font-size:clamp(13px,1.5vw,20px);filter:saturate(.9)}
+.brand-wall-grid small{display:block;font-size:9px;letter-spacing:0;line-height:1.1}
+.logo-constellation{color:#2872bb!important;font-weight:500!important}.logo-mark{color:#55a47c;font-size:23px}
+.logo-bill{font-size:31px!important;font-weight:800!important;color:#ff5b20!important;letter-spacing:-2px!important}
+.logo-elevance{display:block!important;color:#243f7b!important;font-size:22px!important;line-height:1!important}.logo-elevance small{font-size:13px}
+.logo-transunion{color:#00a5c8!important}.logo-transunion span{align-self:flex-start;font-size:10px}
+.logo-exelon{color:#251d72!important;font-size:25px!important}.logo-exelon i{color:#8a76dc;font-style:normal}
+.logo-corcentric{color:#143b92!important}.logo-corcentric span{font-size:9px;letter-spacing:2px;color:#20b8a4}
+.logo-paypal{color:#2368a7!important;font-style:italic;font-size:25px!important}.logo-paypal i{font-style:normal;color:#3158a6}
+.logo-amwell{color:#1595e5!important;font-size:24px!important}
+.logo-vori{color:#147a78!important;letter-spacing:2px!important;font-size:15px!important}
+.logo-coke{color:#e31b23!important;font-family:Georgia,serif;font-style:italic;font-size:25px!important}
+.logo-bboxx{color:#009fe3!important;font-size:24px!important}
+.logo-invitation{color:#4d4d43!important;font-size:14px!important}.logo-invitation:first-letter{color:#72b944}
+.logo-hologic{display:block!important;color:#3c3c3c!important;font-size:22px!important;line-height:1.05!important;letter-spacing:-1px!important}.logo-hologic small{font-size:7px;letter-spacing:0}
+.logo-vodafone{color:#e60000!important;font-size:20px!important}
+.logo-hughes{color:#1493c7!important;font-size:16px!important}
+.brand-wall-note{text-align:center;color:#9898a0;font-size:10px;margin:29px 0 0}
+@media(max-width:700px){.brand-wall{padding:55px 0 40px}.brand-wall-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:17px 12px}.brand-wall-grid>span{min-height:44px;font-size:16px}.brand-wall-heading h2{letter-spacing:-1px}.brand-wall-heading>p{line-height:1.7}}
