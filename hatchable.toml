@@ -1,0 +1,3 @@
+[ai]
+required = true
+description = "Powers the built-in Qelvairo AI chat assistant."
